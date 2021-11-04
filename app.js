@@ -60,7 +60,7 @@ app.get("*", (req, res) => {
   });
 });
 
-const PORT = 5500;
+const PORT = 3200;
 app.listen(PORT, () => {
   console.log(`Listening from port ${PORT}`);
 });
